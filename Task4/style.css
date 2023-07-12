@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.calculator{
+width: 380px;
+height: 580px;
+background: #323232;
+box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+#display, .buttons{
+    width:100%;
+}
+hr{
+    width:76%;
+    border-color:#74EBD5;
+   
+}
+.blue{
+    background-color: #74EBD5!important ;
+    color:white!important;
+}
+#display{
+    height: 174px;
+}
+#input{
+height:50px;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+color:white;
+padding-top: 70px;
+text-align: right;
+   
+}
+#answer{
+height:50px;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+color:white;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: right;
+}
+.buttons{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#input, #answer{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button {
+    width:55px;
+    display: inline-block;
+    line-height: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 100%;
+background-color: #F8F8F8;
+color:#323232;
+margin: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+
+}
+.d-none{
+    display:none;
+   
+}
+
+.container img{
+    margin-right:500px;
+    margin-bottom: 110px;
+    height: 600px;
+    width: 500px;
+}
+.container .calculator{
+    margin-top: 40px;
+    position: absolute;
+}
